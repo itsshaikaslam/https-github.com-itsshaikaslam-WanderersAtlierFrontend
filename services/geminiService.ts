@@ -151,6 +151,8 @@ export const enhanceProductAd = async (imageBase64: string, config: any): Promis
     }
 }
 
+
+
 export const editImageWithPrompt = async (imageBase64: string, editPrompt: string): Promise<string> => {
     try {
         const ai = getAIClient();
